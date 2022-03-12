@@ -1,0 +1,8 @@
+first_name: Brycen
+last_name: Daugherty
+username: cathrine_repellat
+balance: 3565.3529037316976
+UserRecord { first_name: "Paul", last_name: "Matthews", username: "pdmxdd", balance: 500.0, password: "12345" }
+UserRecord { first_name: "Julia", last_name: "Drummond", username: "jmjdrummond", balance: 250.0, password: "password" }
+first_name,last_name,username,balance,password
+Tom,Haverford,thaverford789,500.0,password
