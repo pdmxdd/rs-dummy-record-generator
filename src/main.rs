@@ -1,5 +1,4 @@
 use std::process;
-use std::process::Command;
 
 mod generate;
 use generate::User;
@@ -12,16 +11,7 @@ mod write_users;
 
 use write_users::write_users_to_csv;
 
-fn main() {
-    let output = Command::new("sh")
-        .arg("-c")
-        .arg("echo hello")
-        .output()
-        .expect("failed to execute process");
-
-    let hello = output.stdout;
-    println!("{:?}", hello);
-    
+fn main() {    
     // let user: User = User::new();
     // println!("first_name: {}\nlast_name: {}\nusername: {}\nbalance: {}", user.first_name, user.last_name, user.username, user.balance);
     
